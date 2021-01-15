@@ -9,9 +9,9 @@ namespace Bakery.Controllers
   public class AccountController : Controller
   {
     private readonly BakeryContext _db;
-    private readonly UserManger<ApplicationUser> _userManager;
+    private readonly UserManager<ApplicationUser> _userManager;
     private readonly SignInManager<ApplicationUser> _signInManager;
-    public AccountController(UserManger<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, BakeryContext db)
+    public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, BakeryContext db)
     {
       _userManager = userManager;
       _signInManager = signInManager;
