@@ -7,7 +7,7 @@
 <h2>Treat Details</h2>
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h3>
-
+<br>
 @if(@Model.Flavors.Count == 0)
 {
   <p>This treat does not belong to any Flavors</p>
@@ -29,6 +29,6 @@ else
 }
 
 <p>@Html.ActionLink("Back to list", "Index")</p>
-<p>@Html.ActionLink("Edit Item", "Edit", new { id = Model.TreatId })</p>
+<p>@Html.ActionLink("Edit Treats", "Edit", new { id = Model.TreatId })</p>
 <p>@Html.ActionLink("Add a Flavor", "AddFlavor", new { id = Model.TreatId })</p>
-<p>@Html.ActionLink("Delete Item", "Delete", new { id = Model.TreatId })</p>
+<p>@Html.ActionLink("Delete Treats", "Delete", new { id = Model.TreatId })</p>

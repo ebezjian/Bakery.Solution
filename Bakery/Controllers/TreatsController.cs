@@ -102,7 +102,7 @@ namespace Bakery.Controllers
       return RedirectToAction("Index");
     }
     [HttpPost]
-    public ActionResult DeleteCategory (int joinId)
+    public ActionResult DeleteFlavor (int joinId)
     {
       var joinEntry = _db.FlavorTreat.FirstOrDefault(entry => entry.FlavorTreatId == joinId);
       _db.FlavorTreat.Remove(joinEntry);
