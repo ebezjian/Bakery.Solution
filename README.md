@@ -92,12 +92,12 @@ Go to my GitHub repository here, [https://github.com/ebezjian/Bakery.Solution](h
 
 #### AppSettings:
 
-After you have the project on your computer you will need to create a file in the root directory of the project called "appsettings.json". Add the following snippet of code to the appsettings.json file:
+After you have the project on your computer you will need to create a file in the root directory of the project called "Bakery.Solution". Add the following snippet of code to the appsettings.json file:
 
 ```
 {
   "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=bakery;uid=root;pwd=epicodus;"
+      "DefaultConnection": "Server=localhost;Port=3306;database=ellie_lambert_bakery;uid=root;pwd=epicodus;"
   }
 }
 ```
@@ -113,7 +113,7 @@ After you have the project on your computer you will need to create a file in th
 #### Import Database using MySQL Workbench (option 2):
 
  - Open MySQL workbench and go to the navigation bar and select `Server > Data Import`. 
- - Next, select the option `Import from Self-Contained File` and confirm you have the file `bakery.sql` set to be imported (this files exists in the root directory of this project). 
+ - Next, select the option `Import from Self-Contained File` and confirm you have the file `ellie_lambert_bakery.sql` set to be imported (this files exists in the root directory of this project). 
  - Then, set the `Defaul Target Schema` or create a new schema and select all the the Schema Objects you want to be imported. 
  - Check that the option `Dump Structure and Data` is selected. Once you confirm you have all of the correct settings click `Start Import`.
 
