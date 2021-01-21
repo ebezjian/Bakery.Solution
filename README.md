@@ -92,7 +92,7 @@ Go to my GitHub repository here, [https://github.com/ebezjian/Bakery.Solution](h
 
 #### AppSettings:
 
-After you have the project on your computer you will need to create a file in the root directory of the project called "Bakery.Solution". Add the following snippet of code to the appsettings.json file:
+After you have the project on your computer you will need to create a `appsettings.json` file within the sub-directory of the project called Bakery.Solution/`Bakery`. Add the following snippet of code to the appsettings.json file:
 
 ```
 {
